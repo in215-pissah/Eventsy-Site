@@ -1,0 +1,19 @@
+{
+  "name": "final",
+  "version": "1.0.0",
+  "description": "https://in-info-web4.informatics.iupui.edu/~pissah/SP22/final/",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "live-server",
+    "compile:sass": "sass scss/styles.scss css/styles.css -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.50.0"
+  }
+}
