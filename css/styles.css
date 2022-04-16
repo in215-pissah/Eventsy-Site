@@ -1,7 +1,3 @@
-nav a {
-  text-decoration: none;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -21,6 +17,16 @@ h5,
 h6,
 p {
   margin-bottom: 16px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+footer {
+  height: 455px;
+  width: 1280px;
+  background-color: red;
 }
 
 /*# sourceMappingURL=styles.css.map */
