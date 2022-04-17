@@ -19,14 +19,89 @@ p {
   margin-bottom: 16px;
 }
 
+@font-face {
+  font-family: GillSan-Regular;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillSan-Italic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: GillSan-Bold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: GillSan-BoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+nav,
+a,
+footer {
+  font-family: GillSan-Regular;
+}
+
+nav {
+  height: 50px;
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+nav img {
+  margin-right: 15%;
+}
 nav a {
   text-decoration: none;
+}
+nav span {
+  color: #ee4367;
+  font-size: 21px;
 }
 
 footer {
   height: 455px;
-  width: 1280px;
-  background-color: red;
+  background-color: #ee4367;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+footer p {
+  color: #ffffff;
+  text-align: center;
+}
+footer .newspaper-Box {
+  height: 60px;
+  background-color: antiquewhite;
+  display: flex;
+  align-content: center;
+}
+footer .newspaper-Box .email-Box {
+  height: 100%;
+  width: 529px;
+  border-style: none;
+  background-color: #f56b88;
+  color: #ffffff;
+  padding-left: 15px;
+  font-size: 16px;
+}
+footer .newspaper-Box ::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+footer .newspaper-Box .subscribe-Box {
+  height: 100%;
+  width: 167px;
+  color: #ee4367;
+  background-color: #ffffff;
+  border-style: none;
+  font-size: 16px;
+}
+footer span {
+  font-size: 32px;
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,6 +1,50 @@
 footer {
+  //   width: 1280px;
+  //   max-width: 100%;
   height: $footer-height;
-  width: 1280px;
-  //   background-color: $site-pink;
-  background-color: red;
+  background-color: $site-pink;
+  color: rgba(#ffffff, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  p {
+    color: $site-white;
+    text-align: center;
+  }
+  .newspaper-Box {
+    height: 60px;
+    // max-width: 697px;
+    background-color: antiquewhite;
+    display: flex;
+    align-content: center;
+
+    .email-Box {
+      height: 100%;
+      width: 529px;
+      border-style: none;
+      background-color: #f56b88;
+      color: #ffffff;
+      padding-left: 15px;
+      font-size: 16px;
+    }
+    // dont put Place inside of a class
+    ::placeholder {
+      color: rgba(#ffffff, 0.5);
+      // color: #ffffff;
+      // opacity: 0.5;
+    }
+    .subscribe-Box {
+      height: 100%;
+      width: 167px;
+      color: $site-pink;
+      background-color: $site-white;
+      border-style: none;
+      font-size: 16px;
+    }
+  }
+  span {
+    font-size: 32px;
+    color: $site-white;
+  }
 }
