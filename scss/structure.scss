@@ -42,5 +42,22 @@ footer {
   font-family: GillSan-Regular;
 }
 
+.blackText {
+  color: #000000;
+}
+.black-hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  @include horizontal-rule;
+}
+.whiteText {
+  color: #ffffff;
+}
+.white-hr {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  @include horizontal-rule;
+}
+
 #app {
 }

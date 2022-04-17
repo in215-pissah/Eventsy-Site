@@ -41,6 +41,30 @@ footer {
   font-family: GillSan-Regular;
 }
 
+.blackText {
+  color: #000000;
+}
+
+.black-hr {
+  background-color: #000000;
+  border: 1px solid #000000;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+.whiteText {
+  color: #ffffff;
+}
+
+.white-hr {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+  width: 980px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
 nav {
   height: 50px;
   max-width: 980px;
