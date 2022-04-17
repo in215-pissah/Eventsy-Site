@@ -1,0 +1,13 @@
+.home-img {
+  margin: 0 auto;
+  height: 500px;
+  max-width: $site-width;
+  background-image: linear-gradient(
+      rgba($site-yellow, 0.8),
+      rgba($site-yellow, 0.8)
+    ),
+    url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  // position: fixed;
+}
