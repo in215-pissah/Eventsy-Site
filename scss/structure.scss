@@ -17,6 +17,31 @@ p {
   margin-bottom: 16px;
 }
 
+// fonts
+@font-face {
+  font-family: GillSan-Regular;
+  src: url(fonts/PTSerif-Regular.ttf);
+}
+@font-face {
+  font-family: GillSan-Italic;
+  src: url(fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: GillSan-Bold;
+  src: url(fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: GillSan-BoldItalic;
+  src: url(fonts/PTSerif-BoldItalic.ttf);
+}
+
+nav,
+a,
+footer {
+  // font-family: $Gill-Sans;
+  font-family: GillSan-Regular;
+}
+
 // @font-face {
 //   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 //   src: url();
