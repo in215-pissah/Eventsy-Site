@@ -48,7 +48,7 @@ footer {
 .black-hr {
   background-color: #000000;
   border: 1px solid #000000;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -60,7 +60,7 @@ footer {
 .white-hr {
   background-color: #ffffff;
   border: 1px solid #ffffff;
-  width: 980px;
+  max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
 }
@@ -108,9 +108,8 @@ footer p {
 }
 footer .newspaper-Box {
   height: 60px;
-  background-color: antiquewhite;
+  max-width: 100%;
   display: flex;
-  align-content: center;
 }
 footer .newspaper-Box .email-Box {
   height: 100%;
