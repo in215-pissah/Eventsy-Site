@@ -1,5 +1,19 @@
 nav {
+  height: 50px;
+  max-width: 980px;
+  //   background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  img {
+    margin-right: 15%;
+  }
   a {
     text-decoration: none;
+  }
+  span {
+    color: $site-pink;
+    font-size: 21px;
   }
 }
