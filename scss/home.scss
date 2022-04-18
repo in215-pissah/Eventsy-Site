@@ -45,8 +45,32 @@
 
 .quote-Section {
   margin: 0 auto;
-  height: 300px;
+  min-height: 300px;
   // width: $site-width;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5% 15%;
+  // margin-left: 245px;
+  // padding: 77px 245px;
+  h3 {
+    color: $site-yellow;
+    font-family: GillSan-BoldItalic;
+    font-size: 20px;
+    // height: 90px;
+    // width: 789px;
+    margin-bottom: 20px;
+  }
+  .author-Text {
+    color: $site-pink;
+    font-size: 17px;
+    font-family: GillSan-Regular;
+  }
+  .jobTitle-Text {
+    color: #a8a8a8;
+    font-size: 10px;
+    font-family: GillSan-Regular;
+  }
 }
 
 .event-Section {

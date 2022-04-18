@@ -166,7 +166,27 @@ footer span {
 
 .quote-Section {
   margin: 0 auto;
-  height: 300px;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 5% 15%;
+}
+.quote-Section h3 {
+  color: #ffd140;
+  font-family: GillSan-BoldItalic;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.quote-Section .author-Text {
+  color: #ee4367;
+  font-size: 17px;
+  font-family: GillSan-Regular;
+}
+.quote-Section .jobTitle-Text {
+  color: #a8a8a8;
+  font-size: 10px;
+  font-family: GillSan-Regular;
 }
 
 .event-Section {
