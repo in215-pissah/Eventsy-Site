@@ -11,6 +11,36 @@
   background-size: cover;
   background-position: center;
   // position: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  // Text
+  h1,
+  p {
+    color: #ffffff;
+  }
+  h2,
+  p {
+    font-family: GillSan-Italic;
+  }
+  h1 {
+    font-family: GillSan-Regular;
+  }
+  h2 {
+    color: $site-pink;
+  }
+  p {
+    font-size: 20px;
+    margin: 48px 20px;
+  }
+  .readMoreBTN {
+    height: 40px;
+    width: 122px;
+    background-color: $site-pink;
+    color: #ffffff;
+    border-style: none;
+  }
 }
 
 .quote-Section {

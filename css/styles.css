@@ -133,6 +133,35 @@ footer span {
   background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
   background-size: cover;
   background-position: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-img h1,
+.home-img p {
+  color: #ffffff;
+}
+.home-img h2,
+.home-img p {
+  font-family: GillSan-Italic;
+}
+.home-img h1 {
+  font-family: GillSan-Regular;
+}
+.home-img h2 {
+  color: #ee4367;
+}
+.home-img p {
+  font-size: 20px;
+  margin: 48px 20px;
+}
+.home-img .readMoreBTN {
+  height: 40px;
+  width: 122px;
+  background-color: #ee4367;
+  color: #ffffff;
+  border-style: none;
 }
 
 .quote-Section {
