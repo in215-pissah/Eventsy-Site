@@ -193,6 +193,20 @@ footer span {
   margin: 0 auto;
   background-color: #540d6e;
   height: 320px;
+  font-family: GillSan-Regular;
+}
+.event-Section h1 {
+  color: #ffffff;
+}
+.event-Section hr {
+  background-color: #ffffff;
+  width: 392px;
+  border: 1px solid #ffffff;
+}
+.event-Section .date-Section {
+  background-color: antiquewhite;
+  height: 125px;
+  margin-top: 35px;
 }
 
 /*# sourceMappingURL=styles.css.map */
