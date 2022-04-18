@@ -54,12 +54,12 @@ footer {
 }
 
 .whiteText {
-  color: #ffffff;
+  color: #ff0000;
 }
 
 .white-hr {
   background-color: #ffffff;
-  border: 1px solid #ffffff;
+  border: 1px solid #ff0000;
   max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
