@@ -15,11 +15,12 @@ function route() {
 
 // Listens and write console.log when something is pressed
 function initListeners() {
-    $(window).on("hashchange", route)
+    $(window).on("hashchange", route);
+    console.log(route);
 }
 
 $(document).ready(function () {
     // console.log("Pierce");
-    // console.log(MODEL.myName)
+    // console.log(MODEL.myName);
     initListeners();
-});
+})

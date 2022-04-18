@@ -1,7 +1,7 @@
 .home-img {
   margin: 0 auto;
   height: 500px;
-  max-width: $site-width;
+  // max-width: $site-width;
   //   max-width: 100%;
   background-image: linear-gradient(
       rgba($site-yellow, 0.8),
@@ -11,4 +11,17 @@
   background-size: cover;
   background-position: center;
   // position: fixed;
+}
+
+.quote-Section {
+  margin: 0 auto;
+  height: 300px;
+  // width: $site-width;
+}
+
+.event-Section {
+  margin: 0 auto;
+  background-color: $site-purple;
+  height: 320px;
+  // max-width: $site-width;
 }
