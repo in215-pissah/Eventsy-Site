@@ -51,15 +51,16 @@ footer {
   @include horizontal-rule;
 }
 .whiteText {
-  // color: #ffffff;
-  color: #ff0000;
+  color: #ffffff;
+  // color: #ff0000;
 }
 .white-hr {
   background-color: #ffffff;
-  // border: 1px solid #ffffff;
-  border: 1px solid #ff0000;
+  border: 1px solid #ffffff;
+  // border: 1px solid #ff0000;
   @include horizontal-rule;
 }
 
 #app {
+  z-index: 2;
 }
