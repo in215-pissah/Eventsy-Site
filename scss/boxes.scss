@@ -1,0 +1,45 @@
+.event-Box {
+  height: 100%;
+  max-width: 220px;
+  // background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+}
+.date-Box {
+  height: 60px;
+  width: 60px;
+  background-color: $site-pink;
+  color: $site-white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // justify-content: space-around;
+  padding: 4px 24px;
+  .dateNumber {
+    font-family: GillSan-Bold;
+    font-size: 22px;
+  }
+  .dateMonth {
+    font-family: GillSan-Regular;
+    font-size: 14px;
+  }
+}
+.date-Text {
+  width: 140px;
+  // display: flex;
+  // justify-content: space-between;
+  h3 {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: GillSan-Regular;
+    height: 40px;
+    overflow: hidden;
+  }
+  p {
+    color: $site-pink;
+    font-size: 13px;
+    font-family: GillSan-Bold;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+}

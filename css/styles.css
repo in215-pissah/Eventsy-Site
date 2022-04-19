@@ -204,9 +204,52 @@ footer span {
   border: 1px solid #ffffff;
 }
 .event-Section .date-Section {
-  background-color: antiquewhite;
   height: 125px;
   margin-top: 35px;
+}
+
+.event-Box {
+  height: 100%;
+  max-width: 220px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.date-Box {
+  height: 60px;
+  width: 60px;
+  background-color: #ee4367;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 4px 24px;
+}
+.date-Box .dateNumber {
+  font-family: GillSan-Bold;
+  font-size: 22px;
+}
+.date-Box .dateMonth {
+  font-family: GillSan-Regular;
+  font-size: 14px;
+}
+
+.date-Text {
+  width: 140px;
+}
+.date-Text h3 {
+  color: #ffffff;
+  font-size: 15px;
+  font-family: GillSan-Regular;
+  height: 40px;
+  overflow: hidden;
+}
+.date-Text p {
+  color: #ee4367;
+  font-size: 13px;
+  font-family: GillSan-Bold;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
