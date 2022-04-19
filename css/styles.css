@@ -195,10 +195,14 @@ footer span {
   height: 320px;
   font-family: GillSan-Regular;
 }
-.event-Section h1 {
+.event-Section .quote-Title {
+  padding-top: 38px;
+  margin-left: 40px;
+}
+.event-Section .quote-Title h1 {
   color: #ffffff;
 }
-.event-Section hr {
+.event-Section .quote-Title hr {
   background-color: #ffffff;
   width: 392px;
   border: 1px solid #ffffff;
@@ -206,6 +210,8 @@ footer span {
 .event-Section .date-Section {
   height: 125px;
   margin-top: 35px;
+  display: flex;
+  justify-content: space-around;
 }
 
 .event-Box {
@@ -220,10 +226,8 @@ footer span {
   width: 60px;
   background-color: #ee4367;
   color: #ffffff;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding: 4px 24px;
+  padding: 4px 17px;
+  margin-right: 20px;
 }
 .date-Box .dateNumber {
   font-family: GillSan-Bold;

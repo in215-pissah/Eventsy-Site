@@ -79,17 +79,25 @@
   height: 320px;
   // max-width: $site-width;
   font-family: GillSan-Regular;
-  h1 {
-    color: #ffffff;
+  .quote-Title {
+    padding-top: 38px;
+    margin-left: 40px;
+    h1 {
+      color: #ffffff;
+    }
+    hr {
+      background-color: #ffffff;
+      width: 392px;
+      border: 1px solid #ffffff;
+    }
   }
-  hr {
-    background-color: #ffffff;
-    width: 392px;
-    border: 1px solid #ffffff;
-  }
+
   .date-Section {
     // background-color: antiquewhite;
     height: 125px;
     margin-top: 35px;
+    display: flex;
+    // align-items: center;
+    justify-content: space-around;
   }
 }

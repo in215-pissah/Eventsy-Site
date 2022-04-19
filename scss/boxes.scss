@@ -10,11 +10,13 @@
   width: 60px;
   background-color: $site-pink;
   color: $site-white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+  padding: 4px 17px;
+  margin-right: 20px;
+  // display: flex;
+  // align-items: center;
+  // flex-direc7tion: column;
   // justify-content: space-around;
-  padding: 4px 24px;
+
   .dateNumber {
     font-family: GillSan-Bold;
     font-size: 22px;
