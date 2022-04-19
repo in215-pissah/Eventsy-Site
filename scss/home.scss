@@ -77,7 +77,8 @@
 .event-Section {
   margin: 0 auto;
   background-color: $site-purple;
-  height: 320px;
+  min-height: 320px;
+  // max-width: 100%;
   // max-width: $site-width;
   font-family: GillSan-Regular;
   .quote-Title {
@@ -95,10 +96,21 @@
 
   .date-Section {
     // background-color: antiquewhite;
-    height: 125px;
+    min-height: 125px;
+    // max-width: $site-width;
+    // max-width: 100%;
     margin-top: 35px;
     display: flex;
-    // align-items: center;
+    align-items: center;
     justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .date-Section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    // min-height: 125px;
   }
 }

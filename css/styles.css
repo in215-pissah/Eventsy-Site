@@ -203,7 +203,7 @@ footer span {
 .event-Section {
   margin: 0 auto;
   background-color: #540d6e;
-  height: 320px;
+  min-height: 320px;
   font-family: GillSan-Regular;
 }
 .event-Section .quote-Title {
@@ -219,12 +219,20 @@ footer span {
   border: 1px solid #ffffff;
 }
 .event-Section .date-Section {
-  height: 125px;
+  min-height: 125px;
   margin-top: 35px;
   display: flex;
+  align-items: center;
   justify-content: space-around;
 }
 
+@media screen and (max-width: 1110px) {
+  .date-Section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 .event-Box {
   height: 100%;
   max-width: 220px;
