@@ -51,6 +51,8 @@ footer {
   max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
+  position: relative;
+  z-index: 99;
 }
 
 .whiteText {
@@ -63,6 +65,8 @@ footer {
   max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
+  position: relative;
+  z-index: 99;
 }
 
 #app {
@@ -76,6 +80,8 @@ nav {
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
+  position: relative;
+  z-index: 99;
 }
 nav img {
   margin-right: 15%;
@@ -132,7 +138,7 @@ footer span {
 }
 
 .home-img {
-  margin: 0 auto;
+  margin: -80px auto 0 auto;
   height: 500px;
   background-image: linear-gradient(rgba(255, 209, 64, 0.8), rgba(255, 209, 64, 0.8)), url(../images/home-hero.jpg);
   background-size: cover;
@@ -141,7 +147,6 @@ footer span {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  margin-top: -60px;
 }
 .home-img h1,
 .home-img p {
@@ -159,7 +164,7 @@ footer span {
 }
 .home-img p {
   font-size: 20px;
-  margin: 48px 20px;
+  margin-top: 38px;
 }
 .home-img .readMoreBTN {
   height: 40px;
