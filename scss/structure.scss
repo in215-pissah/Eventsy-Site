@@ -49,8 +49,8 @@ footer {
   background-color: #000000;
   border: 1px solid #000000;
   @include horizontal-rule;
-  position: relative;
-  z-index: 99;
+  // position: relative;
+  // z-index: 99;
 }
 .whiteText {
   color: #ffffff;
