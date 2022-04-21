@@ -282,19 +282,28 @@ footer span {
 .wrapper {
   max-width: 980px;
   margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 85px;
 }
 .wrapper .about-img {
   margin: 0 auto;
   height: 379px;
   max-width: 980px;
-  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/about.jpg);
+  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.7)), url(../images/about.jpg);
   background-position: center;
   background-size: cover;
 }
 .wrapper .black-hr {
-  max-width: 980px;
+  max-width: 229px;
   margin: 0 auto;
   margin-top: 5px;
+  margin-left: 0;
+}
+.wrapper h1 {
+  margin-top: -36px;
+}
+.wrapper p {
+  margin-top: 37px;
 }
 
 /*# sourceMappingURL=styles.css.map */
