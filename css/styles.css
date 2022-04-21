@@ -19,6 +19,15 @@ p {
   margin-bottom: 16px;
 }
 
+h1 {
+  font-family: GillSan-Regular;
+}
+
+h2,
+p {
+  font-family: GillSan-Italic;
+}
+
 @font-face {
   font-family: GillSan-Regular;
   src: url(fonts/PTSerif-Regular.ttf);
@@ -51,8 +60,6 @@ footer {
   max-width: 980px;
   margin: 0 auto;
   margin-top: 5px;
-  position: relative;
-  z-index: 99;
 }
 
 .whiteText {
@@ -151,13 +158,6 @@ footer span {
 .home-img h1,
 .home-img p {
   color: #ffffff;
-}
-.home-img h2,
-.home-img p {
-  font-family: GillSan-Italic;
-}
-.home-img h1 {
-  font-family: GillSan-Regular;
 }
 .home-img h2 {
   color: #ee4367;
@@ -277,6 +277,24 @@ footer span {
   font-family: GillSan-Bold;
   margin-top: 10px;
   overflow: hidden;
+}
+
+.wrapper {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.wrapper .about-img {
+  margin: 0 auto;
+  height: 379px;
+  max-width: 980px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.5), rgba(255, 209, 64, 0.5)), url(../images/about.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.wrapper .black-hr {
+  max-width: 980px;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
 /*# sourceMappingURL=styles.css.map */

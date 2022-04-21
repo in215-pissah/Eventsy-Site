@@ -1,5 +1,21 @@
 .wrapper {
-}
+  max-width: $nav-width;
+  margin: 0 auto;
+  .about-img {
+    margin: 0 auto;
+    height: 379px;
+    max-width: $nav-width;
+    //   background-color: red;
+    background-image: linear-gradient(
+        rgba($site-yellow, 0.5),
+        rgba($site-yellow, 0.5)
+      ),
+      url(../images/about.jpg);
+    background-position: center;
+    background-size: cover;
+  }
 
-.about-img {
+  .black-hr {
+    @include horizontal-rule;
+  }
 }
