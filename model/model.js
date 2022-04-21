@@ -98,7 +98,7 @@ var homeContent = `<!-- home image -->
           </div>
         </div>
       </div>`;
-var aboutContent = ` <div class="wrapper">
+var aboutContent = `<div class="wrapper">
         <div class="about-img"></div>
         <h1>
           OUR HISTORY:
