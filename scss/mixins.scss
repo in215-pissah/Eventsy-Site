@@ -1,6 +1,6 @@
 // width and margins for anytime a hr is used
-@mixin horizontal-rule {
-  max-width: 980px;
+@mixin horizontal-rule($hr-width: 980px) {
+  max-width: $hr-width;
   margin: 0 auto;
   margin-top: 5px;
 }
