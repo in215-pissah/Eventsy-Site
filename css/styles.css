@@ -299,11 +299,23 @@ footer span {
   margin-top: 5px;
   margin-left: 0;
 }
+.wrapper h1,
+.wrapper p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .wrapper h1 {
   margin-top: -36px;
 }
 .wrapper p {
   margin-top: 37px;
+}
+@media screen and (max-width: 980px) {
+  .wrapper h1,
+.wrapper p {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
