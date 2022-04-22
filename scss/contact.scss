@@ -1,5 +1,24 @@
+.contactText {
+  margin-top: 63.5px;
+  .black-hr {
+    @include horizontal-rule($hr-width: 229px);
+    margin-left: 0;
+  }
+}
+
 .contact-Section {
   max-width: $nav-width;
   height: 442px;
+  margin-top: 65px;
   background-color: aquamarine;
+}
+
+.sendMessage {
+  height: 60px;
+  width: 168px;
+  border-style: none;
+  background-color: $site-pink;
+  color: $site-white;
+  font-size: 16px;
+  margin-bottom: 90px;
 }
