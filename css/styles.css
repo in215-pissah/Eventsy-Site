@@ -469,15 +469,15 @@ footer span {
 }
 
 .gallery-Pic2 {
-  background-image: linear-gradient(rgba(238, 67, 103, 0.65), rgba(238, 67, 103, 0.7)), url(../images/gallery/2.png);
+  background-image: linear-gradient(rgba(238, 67, 103, 0.65), rgba(238, 67, 103, 0.7)), url(../images/gallery/2.jpeg);
 }
 
 .gallery-Pic3 {
-  background-image: linear-gradient(rgba(8, 173, 105, 0.65), rgba(8, 173, 105, 0.7)), url(../images/gallery/3.png);
+  background-image: linear-gradient(rgba(8, 173, 105, 0.65), rgba(8, 173, 105, 0.7)), url(../images/gallery/3.jpg);
 }
 
 .gallery-Pic4 {
-  background-image: linear-gradient(rgba(84, 13, 110, 0.65), rgba(84, 13, 110, 0.7)), url(../images/gallery/4.png);
+  background-image: linear-gradient(rgba(84, 13, 110, 0.65), rgba(84, 13, 110, 0.7)), url(../images/gallery/4.jpg);
 }
 
 .gallery-Pic5 {
