@@ -432,6 +432,14 @@ footer span {
   margin: 50.5px 0;
 }
 
+.galleryTitle-text {
+  font-size: 120px;
+  margin-top: -184px;
+}
+.galleryTitle-text .galleyTitleNum {
+  font-size: 220px;
+}
+
 .gallery-Pic1,
 .gallery-Pic2,
 .gallery-Pic3,
