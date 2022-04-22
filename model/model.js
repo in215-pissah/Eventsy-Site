@@ -137,7 +137,10 @@ var contactContent = `<div class="wrapper">
         </div>
         <button class="sendMessage">SEND MESSAGE</button>
       </div>`;
+// varible for Gallery Img Page
+var galleryImgContect = ``;
 
+// Var Export
 export var myName = "Pierce";
 
 // 
