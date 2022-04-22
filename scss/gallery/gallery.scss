@@ -64,10 +64,23 @@
   margin: 50.5px 0;
 }
 .galleryTitle-text {
-  font-size: 120px;
+  font-size: 130px;
   //   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  margin-top: -184px;
+  margin-top: -285px;
+  text-shadow: 5px 6px 6px rgba(#000000, 0.6);
   .galleyTitleNum {
     font-size: 220px;
+  }
+}
+
+.galleryP {
+  min-height: 133px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 73px;
+  p {
+    width: 45%;
   }
 }

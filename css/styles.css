@@ -433,11 +433,24 @@ footer span {
 }
 
 .galleryTitle-text {
-  font-size: 120px;
-  margin-top: -184px;
+  font-size: 130px;
+  margin-top: -285px;
+  text-shadow: 5px 6px 6px rgba(0, 0, 0, 0.6);
 }
 .galleryTitle-text .galleyTitleNum {
   font-size: 220px;
+}
+
+.galleryP {
+  min-height: 133px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-bottom: 73px;
+}
+.galleryP p {
+  width: 45%;
 }
 
 .gallery-Pic1,
