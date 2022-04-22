@@ -76,3 +76,8 @@ footer {
 #app {
   z-index: 2;
 }
+
+.wrapper {
+  max-width: $nav-width;
+  margin: 0 auto;
+}
