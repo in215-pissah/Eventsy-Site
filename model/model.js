@@ -121,7 +121,22 @@ var aboutContent = `<div class="wrapper">
       </div>`;
 var galleryContent = `<h1>GALLERY</h1>`;
 var blogContent = `<h1>BLOG</h1>`;
-var contactContent = `<h1>CONTACT</h1>`;
+var contactContent = `<div class="wrapper">
+        <h1 class="contactText">
+          CONTACT US:
+          <hr class="black-hr" />
+        </h1>
+        <div class="contact-Section">
+          <form class="contactForm">
+            <input type="text" placeholder="Your Name..." />
+            <input type="text" placeholder="Email Address..." />
+            <input type="text" placeholder="Company..." />
+            <input class="message-Box" type="text" placeholder="Message..." />
+          </form>
+          <div class="map-IMG"></div>
+        </div>
+        <button class="sendMessage">SEND MESSAGE</button>
+      </div>`;
 
 export var myName = "Pierce";
 
