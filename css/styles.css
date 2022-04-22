@@ -395,7 +395,6 @@ footer span {
   height: 100%;
 }
 .gallery-Section .img-Section1 .img-Link1 {
-  background-color: brown;
   width: 489px;
 }
 .gallery-Section .img-Section1 .img-Link2 {
@@ -425,6 +424,13 @@ footer span {
 .gallery-Section .img-Section2 .img-Link5 {
   background-color: brown;
   width: 355px;
+}
+
+.title-Img {
+  max-width: 980px;
+  height: 400px;
+  margin: 50.5px 0;
+  background-color: red;
 }
 
 .gallery-Pic1,

@@ -19,7 +19,6 @@
       height: 100%;
     }
     .img-Link1 {
-      background-color: brown;
       width: 489px;
     }
     .img-Link2 {
@@ -57,4 +56,11 @@
       width: 355px;
     }
   }
+}
+
+.title-Img {
+  max-width: $nav-width;
+  height: 400px;
+  margin: 50.5px 0;
+  background-color: red;
 }
