@@ -379,12 +379,10 @@ footer span {
 .gallery-Section {
   max-width: 980px;
   min-height: 400px;
-  background-color: aqua;
   margin: 30px 0 60px;
 }
 .gallery-Section .img-Section1 {
   height: 187px;
-  background-color: beige;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -398,16 +396,13 @@ footer span {
   width: 489px;
 }
 .gallery-Section .img-Section1 .img-Link2 {
-  background-color: brown;
   width: 187px;
 }
 .gallery-Section .img-Section1 .img-Link3 {
-  background-color: brown;
   width: 265px;
 }
 .gallery-Section .img-Section2 {
   height: 306px;
-  background-color: gold;
   margin-top: 20px;
   display: flex;
   align-items: center;
@@ -418,11 +413,9 @@ footer span {
   height: 100%;
 }
 .gallery-Section .img-Section2 .img-Link4 {
-  background-color: brown;
   width: 603px;
 }
 .gallery-Section .img-Section2 .img-Link5 {
-  background-color: brown;
   width: 355px;
 }
 
