@@ -119,7 +119,48 @@ var aboutContent = `<div class="wrapper">
           </p>
         </div>
       </div>`;
-var galleryContent = `<h1>GALLERY</h1>`;
+var galleryContent = `<div class="wrapper">
+        <h1 class="gallery-H1">
+          GALLERY:
+          <hr class="black-hr" />
+        </h1>
+        <div class="gallery-Section">
+          <div class="img-Section1">
+            <!-- Img Link 1 -->
+            <div class="img-Link1">
+              <a href="#galleryImg">
+                <div class="gallery-Pic1"></div>
+              </a>
+            </div>
+            <!-- Img Link 2 -->
+            <div class="img-Link2">
+              <a href="#galleryImg">
+                <div class="gallery-Pic2"></div>
+              </a>
+            </div>
+            <!-- Img Link 3 -->
+            <div class="img-Link3">
+              <a href="galleryImgBase.html">
+                <div class="gallery-Pic3"></div>
+              </a>
+            </div>
+          </div>
+          <div class="img-Section2">
+            <!-- Img Link 4 -->
+            <div class="img-Link4">
+              <a href="galleryImgBase.html">
+                <div class="gallery-Pic4"></div>
+              </a>
+            </div>
+            <div class="img-Link5">
+              <!-- Img Link 5 -->
+              <a href="galleryImgBase.html">
+                <div class="gallery-Pic5"></div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>`;
 var blogContent = `<h1>BLOG</h1>`;
 var contactContent = `<div class="wrapper">
         <h1 class="contactText">
@@ -180,11 +221,19 @@ export function modelPageName(pageName) {
     $("hr").removeClass("black-hr").addClass("white-hr");
     // Change image in nav src using attr
     $("nav img").attr("src", "images/logo/logo-white.svg");
+    // 
   } else {
     $("nav a").removeClass("whiteText").addClass("blackText");
     $("hr").removeClass("white-hr").addClass("black-hr");
     // Change image src in nav using attr
     $("nav img").attr("src", "images/logo/logo-black.svg")
+  }
+
+  // if state if click a img link
+  if (condition) {
+
+  } else {
+
   }
 
   // try & catch to catch any errors
