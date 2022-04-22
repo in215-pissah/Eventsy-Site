@@ -7,6 +7,8 @@
 
 // Set Image position & Size
 @mixin IMG-Dimensions() {
+  height: 100%;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
