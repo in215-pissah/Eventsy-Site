@@ -138,7 +138,34 @@ var contactContent = `<div class="wrapper">
         <button class="sendMessage">SEND MESSAGE</button>
       </div>`;
 // varible for Gallery Img Page
-var galleryImgContect = ``;
+var galleryImgContent = `<div class="wrapper">
+        <div class="title-Img">
+          <div class="gallery-Pic1"></div>
+        </div>
+        <div class="yellowText">
+          <h1 class="galleryTitle-text">
+            <span class="galleyTitleNum">1</span>
+            Food Festival
+          </h1>
+        </div>
+
+        <div class="galleryP">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`;
 
 // Var Export
 export var myName = "Pierce";
