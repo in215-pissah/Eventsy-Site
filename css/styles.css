@@ -372,19 +372,90 @@ footer span {
   margin-bottom: 90px;
 }
 
+.gallery-H1 {
+  margin-top: 63.5px;
+}
+
 .gallery-Section {
-  width: 980px;
+  max-width: 980px;
   min-height: 400px;
   background-color: aqua;
   margin: 30px 0 60px;
 }
+.gallery-Section .img-Section1 {
+  height: 187px;
+  background-color: beige;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gallery-Section .img-Section1 .img-Link1,
+.gallery-Section .img-Section1 .img-Link2,
+.gallery-Section .img-Section1 .img-Link3 {
+  height: 100%;
+}
+.gallery-Section .img-Section1 .img-Link1 {
+  background-color: brown;
+  width: 489px;
+}
+.gallery-Section .img-Section1 .img-Link2 {
+  background-color: brown;
+  width: 187px;
+}
+.gallery-Section .img-Section1 .img-Link3 {
+  background-color: brown;
+  width: 265px;
+}
+.gallery-Section .img-Section2 {
+  height: 306px;
+  background-color: gold;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gallery-Section .img-Section2 .img-Link4,
+.gallery-Section .img-Section2 .img-Link5 {
+  height: 100%;
+}
+.gallery-Section .img-Section2 .img-Link4 {
+  background-color: brown;
+  width: 603px;
+}
+.gallery-Section .img-Section2 .img-Link5 {
+  background-color: brown;
+  width: 355px;
+}
+
+.gallery-Pic1,
+.gallery-Pic2,
+.gallery-Pic3,
+.gallery-Pic4,
+.gallery-Pic5 {
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
 .gallery-Pic1 {
-  background-image: url(../images/gallery/1.png);
-  height: 480px;
-  width: 980px;
-  background-position: center;
-  background-size: contain;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.65), rgba(255, 209, 64, 0.7)), url(../images/gallery/1.png);
+}
+
+.gallery-Pic2 {
+  background-image: linear-gradient(rgba(238, 67, 103, 0.65), rgba(238, 67, 103, 0.7)), url(../images/gallery/2.png);
+}
+
+.gallery-Pic3 {
+  background-image: linear-gradient(rgba(8, 173, 105, 0.65), rgba(8, 173, 105, 0.7)), url(../images/gallery/3.png);
+}
+
+.gallery-Pic4 {
+  background-image: linear-gradient(rgba(84, 13, 110, 0.65), rgba(84, 13, 110, 0.7)), url(../images/gallery/4.png);
+}
+
+.gallery-Pic5 {
+  background-image: linear-gradient(rgba(59, 206, 171, 0.65), rgba(59, 206, 171, 0.7)), url(../images/gallery/5.png);
 }
 
 /*# sourceMappingURL=styles.css.map */
