@@ -78,4 +78,8 @@ p {
 .wrapper {
   max-width: $nav-width;
   margin: 0 auto;
+  .black-hr {
+    @include horizontal-rule($hr-width: 229px);
+    margin-left: 0;
+  }
 }

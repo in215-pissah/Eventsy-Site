@@ -16,10 +16,6 @@
   max-width: $nav-width;
   margin-bottom: 85px;
 
-  .black-hr {
-    @include horizontal-rule($hr-width: 229px);
-    margin-left: 0;
-  }
   .aboutTitle,
   p {
     margin-left: 0px;

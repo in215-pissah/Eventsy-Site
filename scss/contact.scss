@@ -1,9 +1,5 @@
 .contactText {
   margin-top: 63.5px;
-  .black-hr {
-    @include horizontal-rule($hr-width: 229px);
-    margin-left: 0;
-  }
 }
 
 .contact-Section {

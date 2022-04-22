@@ -83,6 +83,12 @@ p {
   max-width: 980px;
   margin: 0 auto;
 }
+.wrapper .black-hr {
+  max-width: 229px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 0;
+}
 
 nav {
   height: 50px;
@@ -297,12 +303,6 @@ footer span {
   max-width: 980px;
   margin-bottom: 85px;
 }
-.aboutText .black-hr {
-  max-width: 229px;
-  margin: 0 auto;
-  margin-top: 5px;
-  margin-left: 0;
-}
 .aboutText .aboutTitle,
 .aboutText p {
   margin-left: 0px;
@@ -324,12 +324,6 @@ footer span {
 
 .contactText {
   margin-top: 63.5px;
-}
-.contactText .black-hr {
-  max-width: 229px;
-  margin: 0 auto;
-  margin-top: 5px;
-  margin-left: 0;
 }
 
 .contact-Section {
