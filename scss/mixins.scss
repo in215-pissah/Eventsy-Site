@@ -4,3 +4,9 @@
   margin: 0 auto;
   margin-top: 5px;
 }
+
+// Set Image position & Size
+@mixin IMG-Dimensions() {
+  background-position: center;
+  background-size: contain;
+}
