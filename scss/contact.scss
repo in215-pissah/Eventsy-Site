@@ -8,6 +8,7 @@
 
 .contact-Section {
   max-width: $nav-width;
+  //   min-height: 442px;
   height: 442px;
   margin-top: 65px;
   //   background-color: aquamarine;
@@ -54,3 +55,27 @@
   margin-top: 21px;
   margin-bottom: 90px;
 }
+
+// Media Query
+// @media screen and (max-width: 600px) {
+//   .contact-Section {
+//     min-height: $nav-width;
+//     // min-height: 100%;
+//     background-color: aqua;
+//     display: flex;
+//     align-items: center;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     .contactForm {
+//       background-color: red;
+//       display: flex;
+
+//       justify-content: space-between;
+//       width: 75%;
+//     }
+//     .map-IMG {
+//       height: 442px;
+//       width: 75%;
+//     }
+//   }
+// }
