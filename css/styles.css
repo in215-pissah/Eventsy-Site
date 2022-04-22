@@ -471,4 +471,24 @@ footer span {
   background-image: linear-gradient(rgba(59, 206, 171, 0.65), rgba(59, 206, 171, 0.7)), url(../images/gallery/5.png);
 }
 
+.yellowText {
+  color: #ffd140;
+}
+
+.pinkText {
+  color: #ee4367;
+}
+
+.greenText {
+  color: #08ad69;
+}
+
+.purpleText {
+  color: #540d6e;
+}
+
+.tealText {
+  color: #3bceab;
+}
+
 /*# sourceMappingURL=styles.css.map */
