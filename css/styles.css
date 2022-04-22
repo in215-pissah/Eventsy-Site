@@ -336,7 +336,6 @@ footer span {
   max-width: 980px;
   height: 442px;
   margin-top: 65px;
-  background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -344,7 +343,6 @@ footer span {
 .contact-Section .contactForm {
   height: 100%;
   width: 50%;
-  background-color: bisque;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -364,7 +362,9 @@ footer span {
 .contact-Section .map-IMG {
   height: 100%;
   width: 45%;
-  background-color: red;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 .sendMessage {

@@ -10,14 +10,14 @@
   max-width: $nav-width;
   height: 442px;
   margin-top: 65px;
-  background-color: aquamarine;
+  //   background-color: aquamarine;
   display: flex;
   align-items: center;
   justify-content: space-between;
   .contactForm {
     height: 100%;
     width: 50%;
-    background-color: bisque;
+    // background-color: bisque;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,7 +37,10 @@
   .map-IMG {
     height: 100%;
     width: 45%;
-    background-color: red;
+    background-image: url(../images/map.jpg);
+    background-position: center;
+    background-size: cover;
+    // background-color: red;
   }
 }
 
