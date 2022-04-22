@@ -19,7 +19,11 @@ p {
   margin-bottom: 16px;
 }
 
-h1 {
+h1,
+nav,
+a,
+footer,
+button {
   font-family: GillSan-Regular;
 }
 
@@ -44,12 +48,6 @@ p {
   font-family: GillSan-BoldItalic;
   src: url(fonts/PTSerif-BoldItalic.ttf);
 }
-nav,
-a,
-footer {
-  font-family: GillSan-Regular;
-}
-
 .blackText {
   color: #000000;
 }
@@ -323,10 +321,31 @@ footer span {
   }
 }
 
+.contactText {
+  margin-top: 63.5px;
+}
+.contactText .black-hr {
+  max-width: 229px;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
 .contact-Section {
   max-width: 980px;
   height: 442px;
+  margin-top: 65px;
   background-color: aquamarine;
+}
+
+.sendMessage {
+  height: 60px;
+  width: 168px;
+  border-style: none;
+  background-color: #ee4367;
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 90px;
 }
 
 /*# sourceMappingURL=styles.css.map */
