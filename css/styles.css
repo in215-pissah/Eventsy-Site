@@ -587,4 +587,11 @@ footer span {
   margin-top: 30px;
 }
 
+@media screen and (max-width: 1010px) {
+  .blogText h1,
+.blogText p {
+    padding: 0 15px;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */

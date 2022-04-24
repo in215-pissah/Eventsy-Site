@@ -40,3 +40,12 @@
     margin-top: 30px;
   }
 }
+
+@media screen and (max-width: 1010px) {
+  .blogText {
+    h1,
+    p {
+      padding: 0 15px;
+    }
+  }
+}
