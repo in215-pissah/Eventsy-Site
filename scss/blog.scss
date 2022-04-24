@@ -48,6 +48,19 @@
   }
 }
 
+.blogHeader {
+  height: 300px;
+  background-color: $site-pink;
+  margin: 55px 0;
+  background-image: linear-gradient(
+      rgba($site-pink, 0.5),
+      rgba($site-pink, 0.7)
+    ),
+    url(../images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 936px) {
   .blogSection {
     // background-color: red;

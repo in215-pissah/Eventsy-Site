@@ -540,6 +540,15 @@ footer span {
   color: #ee4367;
 }
 
+.blogHeader {
+  height: 300px;
+  background-color: #ee4367;
+  margin: 55px 0;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.7)), url(../images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 @media screen and (max-width: 936px) {
   .blogSection {
     flex-direction: column;
