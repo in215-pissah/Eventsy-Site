@@ -182,7 +182,7 @@ var blogContent = `<div class="wrapper">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
-              <div class="blogText">
+              <div class="blogBox-Text">
                 <h2>Sed et persipiatis unde omnis iste natus</h2>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -207,7 +207,7 @@ var blogContent = `<div class="wrapper">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
-              <div class="blogText">
+              <div class="blogBox-Text">
                 <h2>Sed et persipiatis unde omnis iste natus</h2>
                 <p>
                   Sed ut perspiciatis unde omnis iste natus error sit voluptatem
