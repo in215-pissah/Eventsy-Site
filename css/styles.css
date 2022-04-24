@@ -548,7 +548,10 @@ footer span {
   background-size: cover;
   background-position: center;
 }
-
+.blogHeader .date-Box {
+  height: 155.25px;
+  width: 155.25px;
+}
 @media screen and (max-width: 936px) {
   .blogSection {
     flex-direction: column;
