@@ -540,18 +540,6 @@ footer span {
   color: #ee4367;
 }
 
-.blogHeader {
-  height: 300px;
-  background-color: #ee4367;
-  margin: 55px 0;
-  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.7)), url(../images/blog.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.blogHeader .date-Box {
-  height: 155.25px;
-  width: 155.25px;
-}
 @media screen and (max-width: 936px) {
   .blogSection {
     flex-direction: column;
@@ -559,6 +547,31 @@ footer span {
   .blogSection .blogBox {
     margin-bottom: 30px;
   }
+}
+.blogHeader {
+  height: 300px;
+  background-color: #ee4367;
+  margin: 55px 0;
+  background-image: linear-gradient(rgba(238, 67, 103, 0.5), rgba(238, 67, 103, 0.7)), url(../images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.blogHeader .date-Box {
+  height: 155.25px;
+  width: 155.25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.blogHeader .date-Box .dateNumber {
+  font-size: 55px;
+}
+.blogHeader .date-Box .dateMonth {
+  font-size: 31px;
 }
 
 /*# sourceMappingURL=styles.css.map */
