@@ -161,7 +161,65 @@ var galleryContent = `<div class="wrapper">
           </div>
         </div>
       </div>`;
-var blogContent = `<h1>BLOG</h1>`;
+var blogContent = `<div class="wrapper">
+        <h1 class="heading-Text">
+          Blog:
+          <hr class="black-hr" />
+        </h1>
+        <!-- blog Section 1 -->
+        <div class="blogSection">
+          <!-- blogBox 1 -->
+          <div class="blogBox">
+            <div class="date-Box">
+              <p>
+                <span class="dateNumber">06</span>
+                <span class="dateMonth">JUN</span>
+              </p>
+            </div>
+            <div class="blog-Info">
+              <div class="blogIMG">
+                <a href="#">
+                  <img src="images/blog.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blogText">
+                <h2>Sed et persipiatis unde omnis iste natus</h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- blogBox 2 -->
+          <div class="blogBox">
+            <div class="date-Box">
+              <p>
+                <span class="dateNumber">30</span>
+                <span class="dateMonth">JUL</span>
+              </p>
+            </div>
+            <div class="blog-Info">
+              <div class="blogIMG">
+                <a href="#">
+                  <img src="images/blog.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blogText">
+                <h2>Sed et persipiatis unde omnis iste natus</h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>`;
 var contactContent = `<div class="wrapper">
         <h1 class="heading-Text">
           CONTACT US:
