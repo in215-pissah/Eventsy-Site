@@ -161,7 +161,7 @@ var galleryContent = `<div class="wrapper">
           </div>
         </div>
       </div>`;
-var blogContent = `<div class="wrapper">
+var blogContent = ` <div class="wrapper">
         <h1 class="heading-Text">
           Blog:
           <hr class="black-hr" />
@@ -178,7 +178,7 @@ var blogContent = `<div class="wrapper">
             </div>
             <div class="blog-Info">
               <div class="blogIMG">
-                <a href="#">
+                <a href="#blogPage">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
@@ -203,7 +203,7 @@ var blogContent = `<div class="wrapper">
             </div>
             <div class="blog-Info">
               <div class="blogIMG">
-                <a href="#">
+                <a href="#blogPage">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
