@@ -543,6 +543,7 @@ footer span {
 @media screen and (max-width: 936px) {
   .blogSection {
     flex-direction: column;
+    align-items: flex-start;
   }
   .blogSection .blogBox {
     margin-bottom: 30px;
