@@ -526,16 +526,16 @@ footer span {
   width: 100%;
   object-fit: cover;
 }
-.blogBox .blog-Info .blogText {
+.blogBox .blog-Info .blogBox-Text {
   height: 140px;
   overflow: hidden;
   padding-top: 10px;
 }
-.blogBox .blog-Info .blogText h2 {
+.blogBox .blog-Info .blogBox-Text h2 {
   font-size: 15px;
   color: #000000;
 }
-.blogBox .blog-Info .blogText p {
+.blogBox .blog-Info .blogBox-Text p {
   font-size: 13px;
   color: #ee4367;
 }
