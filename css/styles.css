@@ -574,4 +574,17 @@ footer span {
   font-size: 31px;
 }
 
+.blogText {
+  margin-bottom: 150px;
+}
+.blogText h1 {
+  color: #ee4367;
+  font-size: 20px;
+  margin-top: 55px;
+}
+.blogText p {
+  font-size: 18px;
+  margin-top: 30px;
+}
+
 /*# sourceMappingURL=styles.css.map */
