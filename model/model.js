@@ -236,7 +236,7 @@ var contactContent = `<div class="wrapper">
         </div>
         <button class="sendMessage">SEND MESSAGE</button>
       </div>`;
-// varible for Gallery Img Page
+// variables for Gallery Img Page
 var galleryImg1Content = `<div class="wrapper">
         <div class="title-Img">
           <div class="gallery-Pic1"></div>
@@ -293,6 +293,8 @@ var galleryImg2Content = `<div class="wrapper">
           </p>
         </div>
       </div>`;
+// variables for Blog Page Content
+var blogPage = `<h1>aaa</h1>`
 
 // Var Export
 export var myName = "Pierce";
