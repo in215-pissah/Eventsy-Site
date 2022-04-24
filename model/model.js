@@ -120,7 +120,7 @@ var aboutContent = `<div class="wrapper">
         </div>
       </div>`;
 var galleryContent = `<div class="wrapper">
-        <h1 class="gallery-H1">
+        <h1 class="heading-Text">
           GALLERY:
           <hr class="black-hr" />
         </h1>
@@ -128,19 +128,19 @@ var galleryContent = `<div class="wrapper">
           <div class="img-Section1">
             <!-- Img Link 1 -->
             <div class="img-Link1">
-              <a href="#galleryImg">
+              <a href="#galleryImg1">
                 <div class="gallery-Pic1"></div>
               </a>
             </div>
             <!-- Img Link 2 -->
             <div class="img-Link2">
-              <a href="#galleryImg">
+              <a href="#galleryImg2">
                 <div class="gallery-Pic2"></div>
               </a>
             </div>
             <!-- Img Link 3 -->
             <div class="img-Link3">
-              <a href="galleryImgBase.html">
+              <a href="#galleryImg">
                 <div class="gallery-Pic3"></div>
               </a>
             </div>
@@ -148,13 +148,13 @@ var galleryContent = `<div class="wrapper">
           <div class="img-Section2">
             <!-- Img Link 4 -->
             <div class="img-Link4">
-              <a href="galleryImgBase.html">
+              <a href="#galleryImg">
                 <div class="gallery-Pic4"></div>
               </a>
             </div>
             <div class="img-Link5">
               <!-- Img Link 5 -->
-              <a href="galleryImgBase.html">
+              <a href="#galleryImg">
                 <div class="gallery-Pic5"></div>
               </a>
             </div>
@@ -163,7 +163,7 @@ var galleryContent = `<div class="wrapper">
       </div>`;
 var blogContent = `<h1>BLOG</h1>`;
 var contactContent = `<div class="wrapper">
-        <h1 class="contactText">
+        <h1 class="heading-Text">
           CONTACT US:
           <hr class="black-hr" />
         </h1>
@@ -179,7 +179,7 @@ var contactContent = `<div class="wrapper">
         <button class="sendMessage">SEND MESSAGE</button>
       </div>`;
 // varible for Gallery Img Page
-var galleryImgContent = `<div class="wrapper">
+var galleryImg1Content = `<div class="wrapper">
         <div class="title-Img">
           <div class="gallery-Pic1"></div>
         </div>
@@ -187,6 +187,34 @@ var galleryImgContent = `<div class="wrapper">
           <h1 class="galleryTitle-text">
             <span class="galleyTitleNum">1</span>
             Food Festival
+          </h1>
+        </div>
+
+        <div class="galleryP">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`;
+var galleryImg2Content = `<div class="wrapper">
+        <div class="title-Img">
+          <div class="gallery-Pic1"></div>
+        </div>
+        <div class="yellowText">
+          <h1 class="galleryTitle-text">
+            <span class="galleyTitleNum">2</span>
+            dee-jay
           </h1>
         </div>
 
@@ -229,12 +257,9 @@ export function modelPageName(pageName) {
     $("nav img").attr("src", "images/logo/logo-black.svg")
   }
 
-  // if state if click a img link
-  if (condition) {
-
-  } else {
-
-  }
+  // if (pageName == "galleryImg1Content") {
+  //   $("div#colorText").removeClass("yellowText").addClass("pinkText");
+  // }
 
   // try & catch to catch any errors
   try {
