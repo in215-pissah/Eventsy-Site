@@ -128,19 +128,19 @@ var galleryContent = `<div class="wrapper">
           <div class="img-Section1">
             <!-- Img Link 1 -->
             <div class="img-Link1">
-              <a href="#galleryImg1">
+              <a href="#foodFestival">
                 <div class="gallery-Pic1"></div>
               </a>
             </div>
             <!-- Img Link 2 -->
             <div class="img-Link2">
-              <a href="#galleryImg2">
+              <a href="#deeJay">
                 <div class="gallery-Pic2"></div>
               </a>
             </div>
             <!-- Img Link 3 -->
             <div class="img-Link3">
-              <a href="#galleryImg">
+              <a href="#speech">
                 <div class="gallery-Pic3"></div>
               </a>
             </div>
@@ -148,13 +148,13 @@ var galleryContent = `<div class="wrapper">
           <div class="img-Section2">
             <!-- Img Link 4 -->
             <div class="img-Link4">
-              <a href="#galleryImg">
+              <a href="#openFoodfest">
                 <div class="gallery-Pic4"></div>
               </a>
             </div>
             <div class="img-Link5">
               <!-- Img Link 5 -->
-              <a href="#galleryImg">
+              <a href="#international">
                 <div class="gallery-Pic5"></div>
               </a>
             </div>
@@ -318,14 +318,15 @@ var contactContent = `<div class="wrapper">
         </div>
         <button class="sendMessage">SEND MESSAGE</button>
       </div>`;
+
 // variables for Gallery Img Page
-var galleryImg1Content = `<div class="wrapper">
+var foodFestivalContent = `<div class="wrapper">
         <div class="title-Img">
           <div class="gallery-Pic1"></div>
         </div>
         <div class="yellowText">
           <h1 class="galleryTitle-text">
-            <span class="galleyTitleNum">1</span>
+            <span class="galleyTitleNum">1.</span>
             Food Festival
           </h1>
         </div>
@@ -347,13 +348,13 @@ var galleryImg1Content = `<div class="wrapper">
           </p>
         </div>
       </div>`;
-var galleryImg2Content = `<div class="wrapper">
+var deeJayContent = `<div class="wrapper">
         <div class="title-Img">
-          <div class="gallery-Pic1"></div>
+          <div class="gallery-Pic2"></div>
         </div>
-        <div class="yellowText">
+        <div class="pinkText">
           <h1 class="galleryTitle-text">
-            <span class="galleyTitleNum">2</span>
+            <span class="galleyTitleNum">2.</span>
             dee-jay
           </h1>
         </div>
@@ -375,6 +376,91 @@ var galleryImg2Content = `<div class="wrapper">
           </p>
         </div>
       </div>`;
+var speechContent = `<div class="wrapper">
+        <div class="title-Img">
+          <div class="gallery-Pic3"></div>
+        </div>
+        <div class="greenText">
+          <h1 class="galleryTitle-text">
+            <span class="galleyTitleNum">3.</span>
+            speech
+          </h1>
+        </div>
+
+        <div class="galleryP">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`;
+var openFoodfestContent = `<div class="wrapper">
+        <div class="title-Img">
+          <div class="gallery-Pic4"></div>
+        </div>
+        <div class="purpleText">
+          <h1 class="galleryTitle-text">
+            <span class="galleyTitleNum">4.</span>
+            Open Foodfest
+          </h1>
+        </div>
+
+        <div class="galleryP">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`;
+var internationalContent = `<div class="wrapper">
+        <div class="title-Img">
+          <div class="gallery-Pic5"></div>
+        </div>
+        <div class="tealText">
+          <h1 class="galleryTitle-text">
+            <span class="galleyTitleNum">5.</span>
+            international
+          </h1>
+        </div>
+
+        <div class="galleryP">
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`;
+
 // variables for Blog Page Content
 var blogPage1Content = `<div class="wrapper">
         <!-- Image Header -->
