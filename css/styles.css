@@ -442,6 +442,45 @@ footer span {
   width: 45%;
 }
 
+@media screen and (max-width: 1000px) {
+  .galleryP {
+    margin: 0 15px;
+  }
+}
+@media screen and (max-width: 995px) {
+  .yellowText {
+    margin-top: -490px;
+  }
+  .yellowText .galleryTitle-text {
+    font-size: 130px;
+  }
+}
+@media screen and (max-width: 603px) {
+  .pinkText .galleryTitle-text {
+    font-size: 80px;
+    margin-top: -60%;
+  }
+}
+@media screen and (max-width: 625px) {
+  .greenText .galleryTitle-text {
+    margin-top: -80%;
+  }
+}
+@media screen and (max-width: 935px) {
+  .purpleText .galleryTitle-text {
+    margin-top: -465px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .tealText .galleryTitle-text {
+    font-size: 12vw;
+  }
+}
+@media screen and (max-width: 736px) {
+  .tealText .galleryTitle-text {
+    margin-top: -420px;
+  }
+}
 .gallery-Pic1,
 .gallery-Pic2,
 .gallery-Pic3,
