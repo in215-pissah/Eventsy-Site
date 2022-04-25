@@ -488,6 +488,9 @@ footer span {
 .purpleText {
   color: #540d6e;
 }
+.purpleText .galleryTitle-text {
+  font-size: 110px;
+}
 
 .tealText {
   color: #3bceab;
