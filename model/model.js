@@ -161,7 +161,7 @@ var galleryContent = `<div class="wrapper">
           </div>
         </div>
       </div>`;
-var blogContent = ` <div class="wrapper">
+var blogContent = `<div class="wrapper">
         <h1 class="heading-Text">
           Blog:
           <hr class="black-hr" />
@@ -178,7 +178,7 @@ var blogContent = ` <div class="wrapper">
             </div>
             <div class="blog-Info">
               <div class="blogIMG">
-                <a href="#blogPage">
+                <a id="jun06" href="#blogPage1">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
@@ -203,7 +203,89 @@ var blogContent = ` <div class="wrapper">
             </div>
             <div class="blog-Info">
               <div class="blogIMG">
-                <a href="#blogPage">
+                <!-- link -->
+                <a href="#blogPage2">
+                  <img src="images/blog.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blogBox-Text">
+                <h2>Sed et persipiatis unde omnis iste natus</h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- blog Section 2 -->
+        <div class="blogSection">
+          <!-- blogBox 3 -->
+          <div class="blogBox">
+            <div class="date-Box">
+              <p>
+                <span class="dateNumber">30</span>
+                <span class="dateMonth">AUG</span>
+              </p>
+            </div>
+            <div class="blog-Info">
+              <div class="blogIMG">
+                <a href="#blogPage3">
+                  <img src="images/blog.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blogBox-Text">
+                <h2>Sed et persipiatis unde omnis iste natus</h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- blogBox 4 -->
+          <div class="blogBox">
+            <div class="date-Box">
+              <p>
+                <span class="dateNumber">23</span>
+                <span class="dateMonth">NOV</span>
+              </p>
+            </div>
+            <div class="blog-Info">
+              <div class="blogIMG">
+                <a href="#blogPage4">
+                  <img src="images/blog.jpg" alt="" />
+                </a>
+              </div>
+              <div class="blogBox-Text">
+                <h2>Sed et persipiatis unde omnis iste natus</h2>
+                <p>
+                  Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                  accusantium doloremque laudantium, totam rem aperiam, eaque
+                  ipsa quae ab illo inventore veritatis et quasi architecto
+                  beatae vitae dicta sunt explicabo.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- blog Section 3 -->
+        <div class="blogSection">
+          <!-- blogBox 5 -->
+          <div class="blogBox">
+            <div class="date-Box">
+              <p>
+                <span class="dateNumber">23</span>
+                <span class="dateMonth">DEC</span>
+              </p>
+            </div>
+            <div class="blog-Info">
+              <div class="blogIMG">
+                <a href="#blogPage5">
                   <img src="images/blog.jpg" alt="" />
                 </a>
               </div>
@@ -294,7 +376,7 @@ var galleryImg2Content = `<div class="wrapper">
         </div>
       </div>`;
 // variables for Blog Page Content
-var blogPageContent = `<div class="wrapper">
+var blogPage1Content = `<div class="wrapper">
         <!-- Image Header -->
         <div class="blogHeader">
           <div class="date-Box">
@@ -330,7 +412,150 @@ var blogPageContent = `<div class="wrapper">
           </p>
         </div>
       </div>`
+var blogPage2Content = `<div class="wrapper">
+        <!-- Image Header -->
+        <div class="blogHeader">
+          <div class="date-Box">
+            <p>
+              <span class="dateNumber">30</span>
+              <br />
+              <span class="dateMonth">JUL</span>
+            </p>
+          </div>
+        </div>
+        <div class="blogText">
+          <!-- Text -->
+          <h1>Header #1:</h1>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
 
+          <h1>Header #2:</h1>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`
+var blogPage3Content = `<div class="wrapper">
+        <!-- Image Header -->
+        <div class="blogHeader">
+          <div class="date-Box">
+            <p>
+              <span class="dateNumber">30</span>
+              <br />
+              <span class="dateMonth">AUG</span>
+            </p>
+          </div>
+        </div>
+        <div class="blogText">
+          <!-- Text -->
+          <h1>Header #1:</h1>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+
+          <h1>Header #2:</h1>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`
+var blogPage4Content = `<div class="wrapper">
+        <!-- Image Header -->
+        <div class="blogHeader">
+          <div class="date-Box">
+            <p>
+              <span class="dateNumber">23</span>
+              <br />
+              <span class="dateMonth">NOV</span>
+            </p>
+          </div>
+        </div>
+        <div class="blogText">
+          <!-- Text -->
+          <h1>Header #1:</h1>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+
+          <h1>Header #2:</h1>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`
+var blogPage5Content = `<div class="wrapper">
+        <!-- Image Header -->
+        <div class="blogHeader">
+          <div class="date-Box">
+            <p>
+              <span class="dateNumber">23</span>
+              <br />
+              <span class="dateMonth">DEC</span>
+            </p>
+          </div>
+        </div>
+        <div class="blogText">
+          <!-- Text -->
+          <h1>Header #1:</h1>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+            quae ab illo inventore veritatis et quasi architecto beatae vitae
+            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
+            eos qui ratione voluptatem sequi nesciunt.
+          </p>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+
+          <h1>Header #2:</h1>
+          <p>
+            Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+            consectetur, adipisci velit, sed quia non numquam eius modi tempora
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+          </p>
+        </div>
+      </div>`
 // Var Export
 export var myName = "Pierce";
 
@@ -351,7 +576,6 @@ export function modelPageName(pageName) {
     // Change image src in nav using attr
     $("nav img").attr("src", "images/logo/logo-black.svg")
   }
-
   // if (pageName == "galleryImg1Content") {
   //   $("div#colorText").removeClass("yellowText").addClass("pinkText");
   // }
