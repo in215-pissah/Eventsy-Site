@@ -1,7 +1,7 @@
 # Evensty Website
 
-### Web4 Link
+### Github Pages Link
 
-https://in-info-web4.informatics.iupui.edu/~pissah/SP22/final/
+https://in215-pissah.github.io/Eventsy-Site/
 
 The goal of this project to create the Evensty Website using jquery and the MVC model. I also plan to the make the website size responsive.
